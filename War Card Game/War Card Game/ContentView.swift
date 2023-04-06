@@ -33,9 +33,9 @@ struct ContentView: View {
                 
                 HStack{
                     Spacer()
-                    Image ("card2")
+                    Image (playerCard)
                     Spacer()
-                    Image ("card3")
+                    Image (cpuCard)
                     Spacer()
                 }
                 
@@ -86,7 +86,11 @@ struct ContentView: View {
         }
     
     func deal() {
-        print("Deal cards")
+        // randomize the players card
+        
+        // randomize the cpu card
+        
+        // update the score
     }
 }
 
